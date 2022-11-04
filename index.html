@@ -89,9 +89,9 @@ function reset() {
    <button onclick="cal()" class="btn btn-medium btn-primary" style="font-weight: 900;">Calculate</button>
    <button onclick="reset()" class="btn btn-medium btn-danger" style="font-weight: 900;">Reset</button>
    <br><br>
-   <h4 id="display-payment" style="font-weight: 900;"></h4>
+   <h4 id="display-payment" style="font-weight: 900;"></h4><br>
    <div data-toggle="modal" data-target="#First_Space_Encyclopaedia">
-    <h4 id="pop" style="cursor:pointer; font-weight:900;color: #23668d;"></h4>
+    <h4 id="pop" style="cursor:pointer; font-weight:900;color: #23668d;"></h4><br>
 
 </div>
 <div class="modal fade" id="First_Space_Encyclopaedia">
@@ -120,7 +120,7 @@ function reset() {
 </div>
 
    
-   <h4 id="display-draft" style="font-weight: 900;"></h4></div>
+   <h4 id="display-draft" style="font-weight: 900;"></h4></div><br>
    <div style="font-weight: 900;">
     <a href="https://forms.gle/ADss1vtPK9XU6yS86" style="text-decoration: none; color: #23668d; "><h4 style="font-weight: 900;" >Click Here to submit your documents</h4></a></div>
 <a href="https://wa.me/message/2DKPRKVUCVKZH1"><img class="add" src="Pink Black Aesthetic Lines Beauty Skincare Shop Etsy Cover (3).png"></a>
@@ -134,43 +134,6 @@ function reset() {
     }
    </style>
    <center><h4 style="font-weight: 900; color: #5b4fff;">Powered by<img src="output-onlinepngtools (32).png"></h4></center>
-<!-- Code injected by live-server -->
-<script>
-	// <![CDATA[  <-- For SVG support
-	if ('WebSocket' in window) {
-		(function () {
-			function refreshCSS() {
-				var sheets = [].slice.call(document.getElementsByTagName("link"));
-				var head = document.getElementsByTagName("head")[0];
-				for (var i = 0; i < sheets.length; ++i) {
-					var elem = sheets[i];
-					var parent = elem.parentElement || head;
-					parent.removeChild(elem);
-					var rel = elem.rel;
-					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
-						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
-						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
-					}
-					parent.appendChild(elem);
-				}
-			}
-			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
-			var address = protocol + window.location.host + window.location.pathname + '/ws';
-			var socket = new WebSocket(address);
-			socket.onmessage = function (msg) {
-				if (msg.data == 'reload') window.location.reload();
-				else if (msg.data == 'refreshcss') refreshCSS();
-			};
-			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
-				console.log('Live reload enabled.');
-				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
-			}
-		})();
-	}
-	else {
-		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
-	}
-	// ]]>
-</script>
+
 </body>
 </html>
