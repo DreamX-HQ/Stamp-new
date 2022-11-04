@@ -22,7 +22,7 @@
     
 </head>
 <body style='background-size: cover;background-image: url("Copy of Black And White Rakia Design Studio Logo (2).png");'><center><a><img class="add" src="Pink Black Aesthetic Lines Beauty Skincare Shop Etsy Cover (4).png"></a><br><br><h1 style="font-family: 'Josefin Sans', sans-serif;
-    font-family: 'Oswald', sans-serif; color: #23668d; font-weight: 900;">Calculate Stamp Duty for Sikka Kimaya IT Park Dehra Dun</h1><br><br>
+    font-family: 'Oswald', sans-serif; color: #23668d; font-weight: 900;">Calculate Stamp Duty for Sikka Kimaya IT Park Dehra Dun</h1><br>
    <script>
    document.addEventListener('contextmenu', (e) => e.preventDefault());
 
@@ -68,7 +68,8 @@ function cal() {
 
 
 
-    document.getElementById("display-payment").innerHTML="Stamp Duty Payable in the Account No. Mentioned Below= ₹"+payment;
+    document.getElementById("display-payment").innerHTML="Stamp Duty Payable = ₹"+payment+"<label class='text-danger'style='font-size:30px;' >**</label>";
+    document.getElementById("pop").innerHTML="Click Here for Account Details";
     document.getElementById("display-draft").innerHTML="Lease Rent DEMAND DRAFT Payable in Favour of SIIDCUL Dehradun = ₹"+lease_rent;}
 }
 function reset() {
@@ -76,7 +77,7 @@ function reset() {
     document.getElementById("input-sale-price").value = "";
     document.getElementById("display-payment").innerHTML =  "";
     document.getElementById("display-draft").innerHTML =  "";
-
+    document.getElementById("pop").innerHTML="";
 
 }
    </script> 
@@ -87,16 +88,41 @@ function reset() {
    
    <button onclick="cal()" class="btn btn-medium btn-primary" style="font-weight: 900;">Calculate</button>
    <button onclick="reset()" class="btn btn-medium btn-danger" style="font-weight: 900;">Reset</button>
-   <br><br><br>
-   <h4 id="display-payment" style="font-weight: 900;"></h4><br><h4 id="display-draft" style="font-weight: 900;"></h4></div>
+   <br><br>
+   <h4 id="display-payment" style="font-weight: 900;"></h4>
+   <div data-toggle="modal" data-target="#First_Space_Encyclopaedia">
+    <h4 id="pop" style="cursor:pointer; font-weight:900;color: #23668d;"></h4>
+
+</div>
+<div class="modal fade" id="First_Space_Encyclopaedia">
+    <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Account Details</h4>
+            </div>
+
+            <div class="modal-body">
+                
+                <p class="p_modal"><h4 style="font-weight: 900;"><p>Account Details for Stamp Duty Payment:</p><p>Account Name: SHCIL estamping Uttarakhand.</p><p>
+                    Current Account No.: 0213uk1313504.
+                </p><p>
+                    IFSC: UTIB0CCH274.
+                </p><p>
+                    Bank & Branch: Axis Bank Mumbai.
+                </p></h4>
+                </p>
+                <h3 style="font-weight: 900;" class="text-danger">**Disclaimer: Stamp Duty is for reference purpose only and may vary on the basis of actual documents.</h3>
+            </div>
+        </div>
+    </div>
+</div>
+
+   
+   <h4 id="display-draft" style="font-weight: 900;"></h4></div>
    <div style="font-weight: 900;">
-    <a href="https://forms.gle/ADss1vtPK9XU6yS86" style="text-decoration: none; color: #23668d; "><h4 style="font-weight: 900;" >Click Here to submit your documents</h4></a><br><h4 style="font-weight: 900;"><p>Account Details for Stamp Duty Payment:</p><p>Account Name: SHCIL estamping Uttarakhand.</p><p>
-        Current Account No.: 0213uk1313504.
-    </p><p>
-        IFSC: UTIB0CCH274.
-    </p><p>
-        Bank & Branch: Axis Bank Mumbai.
-    </p></h4><br><h4 style="font-weight: 900;">Disclaimer: Stamp Duty is for reference purpose only and may vary on the basis of actual documents.</h4><div style = " font-weight: 900;"><h4 style="font-weight: 900; color: #5b4fff;">Powered by<img src="output-onlinepngtools (32).png"></h4></div>
+    <a href="https://forms.gle/ADss1vtPK9XU6yS86" style="text-decoration: none; color: #23668d; "><h4 style="font-weight: 900;" >Click Here to submit your documents</h4></a></div>
 <a href="https://wa.me/message/2DKPRKVUCVKZH1"><img class="add" src="Pink Black Aesthetic Lines Beauty Skincare Shop Etsy Cover (3).png"></a>
 </center><style>
 
@@ -107,5 +133,44 @@ function reset() {
         max-width: 1200px;
     }
    </style>
+   <center><h4 style="font-weight: 900; color: #5b4fff;">Powered by<img src="output-onlinepngtools (32).png"></h4></center>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
 </body>
 </html>
