@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,700&family=Oswald&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>Calculation of Stamp Duty</title>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-K6BXFBRJR1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'G-K6BXFBRJR1');
+    </script>
+    
+</head>
+<body style='background-size: cover;background-image: url("Copy of Black And White Rakia Design Studio Logo (2).png");'><center><a><img class="add" src="Pink Black Aesthetic Lines Beauty Skincare Shop Etsy Cover (4).png"></a><br><br><h1 style="font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Oswald', sans-serif; color: #23668d; font-weight: 900;">Calculate Stamp Duty for Sikka Kimaya IT Park Dehra Dun</h1><br><br>
+   <script>
+   document.addEventListener('contextmenu', (e) => e.preventDefault());
+
+function ctrlShiftKey(e, keyCode) {
+  return e.ctrlKey && e.shiftKey && e.keyCode === keyCode.charCodeAt(0);
+}
+
+document.onkeydown = (e) => {
+  // Disable F12, Ctrl + Shift + I, Ctrl + Shift + J, Ctrl + U
+  if (
+    event.keyCode === 123 ||
+    ctrlShiftKey(e, 'I') ||
+    ctrlShiftKey(e, 'J') ||
+    ctrlShiftKey(e, 'C') ||
+    (e.ctrlKey && e.keyCode === 'U'.charCodeAt(0))
+  )
+    return false;
+};
+function cal() {
+   
+    if(document.getElementById("input-area").value==0)
+    {}else if(document.getElementById("input-sale-price").value==0){}
+    else{
+    
+    
+
+    
+    var area = document.getElementById("input-area").value;
+    area = Math.round(area/10.76);
+
+    var sale = document.getElementById("input-sale-price").value;
+    var lease_rent = area * 35.4;
+    lease_rent = Math.round(lease_rent);
+    var circleRate = ((15*area)*84)+(area*32200);
+
+    var payment = 0;
+    if(circleRate>sale){
+        payment = circleRate;
+    }else{
+        payment = sale;
+        
+    }payment =Math.round((payment*0.05)+300);
+
+
+
+    document.getElementById("display-payment").innerHTML="Stamp Duty Payable in the Account No. Mentioned Below= ₹"+payment;
+    document.getElementById("display-draft").innerHTML="Lease Rent DEMAND DRAFT Payable in Favour of SIIDCUL Dehradun = ₹"+lease_rent;}
+}
+function reset() {
+    document.getElementById("input-area").value = "";
+    document.getElementById("input-sale-price").value = "";
+    document.getElementById("display-payment").innerHTML =  "";
+    document.getElementById("display-draft").innerHTML =  "";
+
+
+}
+   </script> 
+   <h3 style="font-weight: 900;">For Calculation of Stamp Duty kindly fill the following details:</h4><br>
+   <div style="font-weight: 900;"><h4 style="font-weight: 900;">Enter area in Sq. Feet</h4><input id="input-area" type="number"  width="300px"> <br><br></div>
+   <div style="font-weight: 900;"><h4 style="font-weight: 900;">Enter Sale Price<br><input id="input-sale-price" type="number"  width="300px"> <br><br></div>
+    <br>
+   
+   <button onclick="cal()" class="btn btn-medium btn-primary" style="font-weight: 900;">Calculate</button>
+   <button onclick="reset()" class="btn btn-medium btn-danger" style="font-weight: 900;">Reset</button>
+   <br><br><br>
+   <h4 id="display-payment" style="font-weight: 900;"></h4><br><h4 id="display-draft" style="font-weight: 900;"></h4></div>
+   <div style="font-weight: 900;">
+    <a href="https://forms.gle/ADss1vtPK9XU6yS86" style="text-decoration: none; color: #23668d; "><h4 style="font-weight: 900;" >Click Here to submit your documents</h4></a><br><h4 style="font-weight: 900;"><p>Account Details for Stamp Duty Payment:</p><p>Account Name: SHCIL estamping Uttarakhand.</p><p>
+        Current Account No.: 0213uk1313504.
+    </p><p>
+        IFSC: UTIB0CCH274.
+    </p><p>
+        Bank & Branch: Axis Bank Mumbai.
+    </p></h4><br><h4 style="font-weight: 900;">Disclaimer: Stamp Duty is for reference purpose only and may vary on the basis of actual documents.</h4><div style = " font-weight: 900;"><h4 style="font-weight: 900; color: #5b4fff;">Powered by<img src="output-onlinepngtools (32).png"></h4></div>
+<a href="https://wa.me/message/2DKPRKVUCVKZH1"><img class="add" src="Pink Black Aesthetic Lines Beauty Skincare Shop Etsy Cover (3).png"></a>
+</center><style>
+
+
+    .add{
+        height: 230px;
+        width: 100%;
+        max-width: 1200px;
+    }
+   </style>
+</body>
+</html>
